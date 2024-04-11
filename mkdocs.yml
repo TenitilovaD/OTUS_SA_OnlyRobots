@@ -42,7 +42,7 @@ theme:
   language: ru
   features:
     - navigation.instant # Мгновенная загрузка
-    #- navigation.expand # Автоматическое открытие подразделов на панели слева
+    - navigation.expand # Автоматическое открытие подразделов на панели слева
     - navigation.path # Над заголовком каждой страницы отображается путь
     - navigation.top # Кнопка «назад-вверх»
     - navigation.footer # Переключение кнопками предыдущей/следующей страницы в футере
