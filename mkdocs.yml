@@ -18,7 +18,7 @@ nav:
       - business_model.md
       - business_processes.md
       - project_boundaries.md
-    - 3.1. Требования к системе:
+    - 3. Требования к системе:
       - business_requirements.md
       - user_requirements.md
       - business_rules.md
@@ -46,7 +46,7 @@ theme:
     - navigation.path # Над заголовком каждой страницы отображается путь
     - navigation.top # Кнопка «назад-вверх»
     - navigation.footer # Переключение кнопками предыдущей/следующей страницы в футере
-    #- navigation.tabs # Навигационные вкладки
+    - navigation.tabs # Навигационные вкладки
     #- navigation.tabs.sticky
     #- navigation.sections # Отображение верхних вкладок на панели слева
     - navigation.indexes # Скрыть дублирование заголовка на панели слева.
