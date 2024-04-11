@@ -19,19 +19,19 @@ nav:
     - metrics.md
     - business_processes.md
     - project_boundaries.md
-    - index.md
-    - index.md
-    - index.md
-    - index.md
-    - index.md
-    - index.md
-    - index.md
-    - index.md
+    - business_requirements.md
+    - user_requirements.md
+    - business_rules.md
+    - system_requirements.md
+    - non_functional_requirements.md
+    - transitional_requirements.md
+    - requirements_trace.md
+    - information_model.md
     - architecture.md
-    - index.md
-    - index.md
+    - api.md
+    - testing.md
   - Задачи:
-    - index.md
+    - tasks.md
 
 # Configuration
 theme: 
