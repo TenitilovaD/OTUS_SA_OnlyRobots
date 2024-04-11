@@ -10,27 +10,28 @@ copyright: Copyright &copy; 2024 Darya Tenitilova
 
 # Page tree
 nav:
-  - Домашняя страница: index.md
-  - 1. Глоссарий: glossary.md
-  - 2. Бизнес-контекст:
-    - 2.1. Текущая бизнес-модель: current_business_model.md
-    - 2.2. Цель: goal.md
-    - 2.3. Метрики: metrics.md
-    - 2.4. Бизнес-процессы: business_processes.md
-    - 2.5. Границы проекта: project_boundaries.md
-  - 3. Требования к системе: 
-    - 3.1. Бизнес-требования: index.md
-    - 3.2. Пользовательские требования: index.md
-    - 3.3. Бизнес-правила: index.md
-    - 3.4. Системные ФТ: index.md
-    - 3.5. Системные НФТ: index.md
-    - 3.6. Переходные требования: index.md
-    - 3.7. Трассировка требований: index.md
-  - 4. Информационная модель: index.md
-  - 5. Компонентная архитектура: architecture.md
-  - 6. API: index.md
-  - 7. Задачи и критерии приемки: index.md
-  - 8. План тестирования: index.md
+  - Домашняя страница: 
+    - index.md
+  - Документация: 
+    - glossary.md
+    - current_business_model.md
+    - goal.md
+    - metrics.md
+    - business_processes.md
+    - project_boundaries.md
+    - index.md
+    - index.md
+    - index.md
+    - index.md
+    - index.md
+    - index.md
+    - index.md
+    - index.md
+    - architecture.md
+    - index.md
+    - index.md
+  - Задачи:
+    - index.md
 
 # Configuration
 theme: 
@@ -41,11 +42,13 @@ theme:
   language: ru
   features:
     - navigation.instant # Мгновенная загрузка
-    - navigation.sections # Отображение верхних вкладок на панели слева
     - navigation.expand # Автоматическое открытие подразделов на панели слева
     - navigation.path # Над заголовком каждой страницы отображается путь
     - navigation.top # Кнопка «назад-вверх»
     - navigation.footer # Переключение кнопками предыдущей/следующей страницы в футере
+    - navigation.tabs # Навигационные вкладки
+    #- navigation.sections # Отображение верхних вкладок на панели слева
+    - navigation.indexes # Скрыть дублирование заголовка на панели слева.
     - toc.integrate # Интеграция подразделов в панель слева
     - toc.follow # Автоматическая прокрутка боковой панели при прокрутке
     - search.highlight # Подсветка вхождений в тексте
