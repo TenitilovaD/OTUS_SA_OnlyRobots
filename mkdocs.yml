@@ -58,44 +58,6 @@ theme:
     - search.suggest # Автозавершение поискового запроса
     - content.code.copy # Кнопка копирования кода
 
-markdown_extensions:
-  # - lightgallery
-  # Python Markdown
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - tables
-  - toc:
-      toc_depth: 3
-      permalink: true
-  # Python Markdown Extensions
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-  - pymdownx.snippets:
-      auto_append: 
-      - docs/abbreviations.md
-
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
@@ -111,10 +73,4 @@ plugins:
       output_folder: 'out'
       input_folder: 'src'
       input_extensions: '' # comma separated list of extensions to parse, by default every file is parsed
-  - enumerate-headings:
-      exclude:
-        - index.md
-        - glossary.md
-  # - print-site:
-  #     path_to_pdf: "assets/test.pdf"
   - glightbox
