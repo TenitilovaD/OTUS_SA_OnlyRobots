@@ -16,6 +16,8 @@ nav:
     - glossary.md
     - 2. Бизнес-контекст:
       - business_model.md
+      - goals.md
+      - metrics.md
       - business_processes.md
       - project_boundaries.md
     - 3. Требования к системе:
@@ -47,8 +49,8 @@ theme:
     - navigation.top # Кнопка «назад-вверх»
     - navigation.footer # Переключение кнопками предыдущей/следующей страницы в футере
     - navigation.tabs # Навигационные вкладки
-    - navigation.tabs.sticky
-    #- navigation.sections # Отображение верхних вкладок на панели слева
+    №- navigation.tabs.sticky
+    - navigation.sections # Отображение верхних вкладок на панели слева
     - navigation.indexes # Скрыть дублирование заголовка на панели слева.
     - toc.integrate # Интеграция подразделов в панель слева
     - toc.follow # Автоматическая прокрутка боковой панели при прокрутке
