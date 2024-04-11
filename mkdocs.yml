@@ -1,7 +1,14 @@
-#Название сайта с документацией по продукту "Робот и точка"
+# Project information
 site_name: OnlyRobots Docs
+site_url: https://tenitilovad.github.io/otus_sa_onlyrobots/
+site_author: Darya Tenitilova
+site_description: >-
+  Документация проекта "Проектирование ИС робатизированного производства кухни ресторана быстрого питания", разработанного в рамках учебного курса "Системный аналитик Advanced" учебной платформы OTUS
 
-#Структура сайта
+# Copyright
+copyright: Copyright &copy; 2024 Darya Tenitilova
+
+# Page tree
 nav:
   - Домашняя страница: index.md
   - 1. Глоссарий: glossary.md
@@ -25,7 +32,7 @@ nav:
   - 7. Задачи и критерии приемки: index.md
   - 8. План тестирования: index.md
 
-#Тема для оформления сайта
+# Configuration
 theme: 
   name: material
   font:
