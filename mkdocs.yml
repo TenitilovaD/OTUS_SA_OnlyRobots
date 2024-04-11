@@ -58,10 +58,18 @@ theme:
     - search.suggest # Автозавершение поискового запроса
     - content.code.copy # Кнопка копирования кода
 
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  - inline-svg
   - swagger-ui-tag
   - build_plantuml:
       render: 'server' # or "local" for local rendering
