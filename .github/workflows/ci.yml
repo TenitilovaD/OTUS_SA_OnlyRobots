@@ -30,4 +30,5 @@ jobs:
       - run: pip install mkdocs-build-plantuml-plugin
       - run: pip install mkdocs-enumerate-headings-plugin
       - run: pip install mkdocs-material 
+      - run: pip install mkdocs-plugin-inline-svg
       - run: mkdocs gh-deploy --force
