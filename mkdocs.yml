@@ -3,7 +3,7 @@ site_name: OnlyRobots Docs
 site_url: https://tenitilovad.github.io/otus_sa_onlyrobots/
 site_author: Darya Tenitilova
 site_description: >-
-  Документация проекта "Проектирование ИС робатизированного производства кухни ресторана быстрого питания", разработанного в рамках учебного курса "Системный аналитик Advanced" учебной платформы OTUS
+  Документация проекта "Проектирование ИС управления роботизированным производством кухни ресторана быстрого питания", разработанная в рамках учебного курса "Системный аналитик Advanced" учебной платформы OTUS
 
 # Copyright
 copyright: Copyright &copy; 2024 Darya Tenitilova
