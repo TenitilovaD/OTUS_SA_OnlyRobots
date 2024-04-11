@@ -8,33 +8,6 @@ site_description: >-
 # Copyright
 copyright: Copyright &copy; 2024 Darya Tenitilova
 
-# Page tree
-nav:
-  - Домашняя страница: 
-    - index.md
-  - Документация: 
-    - glossary.md
-    - 2. Бизнес-контекст:
-      - business_model.md
-      - goal.md
-      - metrics.md
-      - business_processes.md
-      - project_boundaries.md
-    - 3. Требования к системе:
-      - business_requirements.md
-      - user_requirements.md
-      - business_rules.md
-      - system_requirements.md
-      - non_functional_requirements.md
-      - transitional_requirements.md
-      - requirements_trace.md
-    - information_model.md
-    - architecture.md
-    - api.md
-    - testing.md
-  - Задачи:
-    - tasks.md
-
 # Configuration
 
 theme: 
@@ -82,3 +55,30 @@ plugins:
       input_folder: 'src'
       input_extensions: '' # comma separated list of extensions to parse, by default every file is parsed
   - glightbox
+
+# Page tree
+nav:
+  - Домашняя страница: 
+    - index.md
+  - Документация: 
+    - glossary.md
+    - 2. Бизнес-контекст:
+      - business_model.md
+      - goal.md
+      - metrics.md
+      - business_processes.md
+      - project_boundaries.md
+    - 3. Требования к системе:
+      - business_requirements.md
+      - user_requirements.md
+      - business_rules.md
+      - system_requirements.md
+      - non_functional_requirements.md
+      - transitional_requirements.md
+      - requirements_trace.md
+    - information_model.md
+    - architecture.md
+    - api.md
+    - testing.md
+  - Задачи:
+    - tasks.md
