@@ -15,8 +15,8 @@ nav:
   - Документация: 
     - glossary.md
     - current_business_model.md
-    - goal.md
-    - metrics.md
+    #- goal.md
+    #- metrics.md
     - business_processes.md
     - project_boundaries.md
     - business_requirements.md
