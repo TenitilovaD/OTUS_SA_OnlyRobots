@@ -1,3 +1,3 @@
 # 6. API
 
-<swagger-ui src= "https:tenitilovad.github.io/otus_sa_onlyrobots/master/docs/assets/DaryaTenitilova-only_robots_api-1-resolved.yaml" />
+<swagger-ui src= "https://raw.githubusercontent.com/TenitilovaD/otus_sa_onlyrobots/main/docs/assets/DaryaTenitilova-only_robots_api-1-resolved.yaml" />
