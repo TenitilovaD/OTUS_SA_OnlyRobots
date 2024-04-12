@@ -22,7 +22,7 @@
 
 Диаграмма бизнес-процесса производства кухни:
 
-![](docs/diagrams/production.svg)
+![](https://raw.githubusercontent.com/TenitilovaD/otus_sa_onlyrobots/main/docs/diagrams/production.svg)
 
 **Изменяется процесс управления технологическими картами**:
 
