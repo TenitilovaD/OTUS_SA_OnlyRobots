@@ -31,5 +31,6 @@ jobs:
       - run: pip install mkdocs-enumerate-headings-plugin
       - run: pip install mkdocs-material 
       - run: pip install mkdocs-mermaid2-plugin
+      - run: pip install markdown-grid-tables
       - run: mkdocs gh-deploy --force
     

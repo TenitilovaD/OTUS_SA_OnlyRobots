@@ -39,6 +39,7 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - tables
+  - markdown_grid_tables
 
 plugins:
   - search:
@@ -69,6 +70,7 @@ nav:
       - metrics.md
       - business_processes.md
       - project_boundaries.md
+      - stakeholders.md
     - 3. Требования к системе:
       - business_requirements.md
       - user_requirements.md
